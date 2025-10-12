@@ -64,4 +64,13 @@
         <Copy SourceFiles="@(_DllCopyItems)" DestinationFolder="$(_DestinationDir)" SkipUnchangedFiles="true" ContinueOnError="true" Condition="Exists('%(FullPath)')" />
         <Copy SourceFiles="@(_PdbCopyItems)" DestinationFolder="$(_DestinationDir)" SkipUnchangedFiles="true" ContinueOnError="true" Condition="Exists('%(FullPath)')" />
     </Target>
+    
+    <Target Name="CopyContentFiles" AfterTargets="CopyDestinationDirectory">
+        <ItemGroup>
+            <_LanguageCopyItems Include="$(ProjectDir)\Languages\**\*.xml" />
+        </ItemGroup>
+        
+        <Message Text="Copying content files from $(ProjectDir) to $(RootDestinationDir) ..." Importance="high" />
+        <Copy SourceFiles="@(_LanguageCopyItems)" DestinationFolder="$(RootDestinationDir)Languages/%(RecursiveDir)" SkipUnchangedFiles="true" ContinueOnError="true" Condition="Exists('%(FullPath)')" />
+    </Target>
 </Project>

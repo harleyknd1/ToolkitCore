@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageMetadata>
+    <ToolkitCore_DeviceCodeFlowDone>You're all set! You can close this window now.</ToolkitCore_DeviceCodeFlowDone>
+    <ToolkitCore_DeviceCodeFlowFailed>Authentication failed. Try again later.</ToolkitCore_DeviceCodeFlowFailed>
+    <ToolkitCore_DeviceCodeFlowErrorMessage>Error message: {0}</ToolkitCore_DeviceCodeFlowErrorMessage>
+    <ToolkitCore_DeviceCodeFlowCode>Device code: {0}</ToolkitCore_DeviceCodeFlowCode>
+    <ToolkitCore_DeviceCodeFlowWelcomePreamble>Welcome to the device setup wizard for ToolkitCore. On the next screen you’ll be asked to visit a URL to authenticate with Twitch. The mod will use the account you’re currently logged into to send chat messages. If you’d like to use a different account, log into it before continuing or open the URL in a private/incognito window.</ToolkitCore_DeviceCodeFlowWelcomePreamble>
+    <ToolkitCore_DeviceCodeFlowWarning>You may want to hide your screen if you’re streaming.</ToolkitCore_DeviceCodeFlowWarning>
+    <ToolkitCore_DeviceCodeFlowWaywardTraveller>Greetings wayward traveler, you’ve ventured far from the well-trodden path.</ToolkitCore_DeviceCodeFlowWaywardTraveller>
+    <ToolkitCore_DeviceCodeFlowRestart>Go back to the beginning</ToolkitCore_DeviceCodeFlowRestart>
+    
+    <ToolkitCore_DeviceCodeFlowNavigateToUrl>Please visit the following URL in your browser to authenticate with Twitch:</ToolkitCore_DeviceCodeFlowNavigateToUrl>
+    <ToolkitCore_DeviceCodeFlowInitializing>Requesting device code from Twitch</ToolkitCore_DeviceCodeFlowInitializing>
+    <ToolkitCore_DeviceCodeFlowPending>Waiting for authentication</ToolkitCore_DeviceCodeFlowPending>
+    <ToolkitCore_DeviceCodeFlowInvalid>The code generated was already used; restart the authentication process to continue</ToolkitCore_DeviceCodeFlowInvalid>
+</LanguageMetadata>
